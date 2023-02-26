@@ -1,0 +1,46 @@
+.NaviDiv{
+    width: 100vw;
+    height: 10vh;
+    background-color: brown;
+}
+
+.NavSet{
+    height: 10vh !important;
+    position: relative;
+}
+
+.logo{
+    width: 15vw;
+    height: 15vh;
+    margin-left:-80px;
+}
+
+.brandName{
+    font-weight: bolder;
+    position: absolute;
+    color: white !important;
+    font-weight: 600 !important;
+    font-size:40px !important;
+    left: 15vw;
+    text-transform: uppercase !important;
+    margin-left: -1vw;
+    margin-top: -1.5vh;
+    font-family: 'IBM Plex Serif', serif;
+    transition: all 1s ease-in-out !important;
+}
+
+.brandName:hover{
+    color: rgb(44, 44, 46) !important;
+}
+
+.link{
+    font-size: 18px !important;
+    font-weight: 500 !important;
+    margin-right: 20px;
+    color: white !important;
+    transition: all 0.5s ease-in-out !important;
+}
+
+.link:hover{
+    color: rgb(44, 44, 46) !important;
+}
